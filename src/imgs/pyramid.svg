@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="666px" height="559px" viewBox="0 0 666 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pyramid</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#010A33" offset="0%"></stop>
+            <stop stop-color="#0B0422" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-609.000000, -19.000000)">
+            <g id="pyramid" transform="translate(609.954455, 20.000000)">
+                <g transform="translate(0.000000, 72.000000)" stroke="#28A8F5">
+                    <polyline id="Path-23" stroke-width="6" fill="#060629" points="3.04554474 420 3.04554474 345 64.0455447 345 64.0455447 284 116.045545 284 116.045545 216 170.045545 216 190.045545 151 217.045545 151 217.045545 99 262.045545 99 262.045545 54 295.045545 54 314.045545 -2.74676115e-13 339.045545 2"></polyline>
+                    <polyline id="Path-23-Copy" stroke-width="6" points="3.04554474 420 3.04554474 345 64.0455447 345 64.0455447 284 116.045545 284 116.045545 216 170.045545 216 190.045545 151 217.045545 151 217.045545 99 262.045545 99 262.045545 54 295.045545 54 314.045545 -2.74676115e-13 339.245545 1.2"></polyline>
+                    <polygon id="Path-22" fill="url(#linearGradient-1)" points="3.04554474 420 337.045545 0 658.045545 420 354.645545 482.5"></polygon>
+                    <g id="Group-4">
+                        <polyline id="Path-4" stroke-width="6" points="354.640899 483 659.045545 420.314476 336.970973 0"></polyline>
+                        <line x1="354.045545" y1="483" x2="337.045545" y2="0" id="Path-5" stroke-width="6"></line>
+                        <line x1="504.045545" y1="453" x2="337.045545" y2="0" id="Path-6"></line>
+                        <line x1="457.045545" y1="462" x2="337.045545" y2="0" id="Path-7"></line>
+                        <line x1="397.045545" y1="474" x2="337.045545" y2="0" id="Path-8"></line>
+                        <line x1="560.045545" y1="440" x2="337.045545" y2="0" id="Path-9"></line>
+                        <line x1="611.045545" y1="430" x2="337.045545" y2="0" id="Path-10"></line>
+                        <line x1="302.045545" y1="474" x2="337.045545" y2="0" id="Path-11"></line>
+                        <line x1="243.045545" y1="462" x2="337.045545" y2="0" id="Path-12"></line>
+                        <line x1="180.045545" y1="453" x2="337.045545" y2="0" id="Path-13"></line>
+                        <line x1="121.045545" y1="440" x2="337.045545" y2="0" id="Path-14"></line>
+                        <line x1="62.0455447" y1="430" x2="337.045545" y2="0" id="Path-15"></line>
+                        <polyline id="Path-16" points="62.0455447 345 351.415969 398 611.045545 356.865672"></polyline>
+                        <polyline id="Path-17" points="110.045545 283 347.912211 319 556.045545 285.4"></polyline>
+                        <polyline id="Path-18" points="166.045545 216 345.520244 240 500.045545 216"></polyline>
+                        <polyline id="Path-19" points="217.045545 151 341.776184 175 456.045545 158.2"></polyline>
+                        <polyline id="Path-20" points="258.045545 99 339.954636 113 417.045545 106"></polyline>
+                        <polyline id="Path-21" points="293.045545 54 338.753092 62 378.045545 54"></polyline>
+                        <line x1="354.045545" y1="483" x2="0.0455447389" y2="419" id="Path-2" stroke-width="6"></line>
+                    </g>
+                </g>
+                <g id="Group-6-Copy" transform="translate(223.045545, 123.000000)" stroke="#FFFFFF" stroke-width="3">
+                    <circle id="Oval" cx="7.5" cy="7.5" r="6"></circle>
+                    <polyline id="Path-25" points="7 14 9.07407407 31.2698413 21 46"></polyline>
+                    <line x1="9" y1="30" x2="7" y2="47" id="Path-26"></line>
+                    <polyline id="Path-27" points="21 13 11 20 23 24"></polyline>
+                </g>
+                <g id="Group-6-Copy-2" transform="translate(265.045545, 78.000000)" stroke="#FFFFFF" stroke-width="3">
+                    <circle id="Oval" cx="7.5" cy="7.5" r="6"></circle>
+                    <polyline id="Path-25" points="7 14 9.07407407 31.2698413 21 46"></polyline>
+                    <line x1="9" y1="30" x2="7" y2="47" id="Path-26"></line>
+                    <polyline id="Path-27" points="21 13 11 20 23 24"></polyline>
+                </g>
+                <g id="Group-6-Copy-3" transform="translate(305.045545, 25.000000)" stroke="#FFFFFF" stroke-width="3">
+                    <circle id="Oval" cx="15.5" cy="7.5" r="6"></circle>
+                    <polyline id="Path-25" points="15 14 17.0740741 31.2698413 29 46"></polyline>
+                    <line x1="17" y1="30" x2="15" y2="47" id="Path-26"></line>
+                    <polyline id="Path-27" transform="translate(13.913164, 16.718211) rotate(-79.000000) translate(-13.913164, -16.718211) " points="17.9941566 4.71552748 7.85978504 20.0143739 19.9665426 28.7208951"></polyline>
+                </g>
+                <g id="Group-6-Copy-4" transform="translate(92.045545, 273.000000)" stroke="#FFFFFF" stroke-width="3">
+                    <ellipse id="Oval" cx="8" cy="7.5" rx="6.5" ry="6"></ellipse>
+                    <polyline id="Path-25" points="8 13 10.0740741 30.2698413 22 45"></polyline>
+                    <line x1="10" y1="30" x2="8" y2="47" id="Path-26"></line>
+                    <polyline id="Path-28" points="9 21 16.2727273 13.5 25 9"></polyline>
+                </g>
+                <g id="easter" transform="translate(537.045545, 315.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <circle id="Oval" cx="5" cy="5" r="4"></circle>
+                    <polyline id="Path-25" points="5 9 6.33333333 20.3333333 17 27"></polyline>
+                    <line x1="6.3" y1="20" x2="14" y2="31" id="Path-26"></line>
+                    <polyline id="Path-28" points="16 14 7 14 12 9"></polyline>
+                </g>
+                <text id="wheeee!" font-family="ChicagoFLF" font-size="4" font-weight="normal" letter-spacing="0.225806452" fill="#FFFFFF">
+                    <tspan x="553.1569" y="319">wheeee!</tspan>
+                </text>
+                <g id="arrow" transform="translate(54.045545, 250.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <path d="M37,19 C30.9054913,11.9605918 25.7427006,7.35453117 21.5116279,5.18181818 C17.2805552,3.00910519 10.1100126,1.28183246 0,0" id="Path-29"></path>
+                    <polyline id="Path-30" points="37 12 37 19 31 19"></polyline>
+                </g>
+                <g id="arrow-copy" transform="translate(185.045545, 97.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <path d="M37,19 C30.9054913,11.9605918 25.7427006,7.35453117 21.5116279,5.18181818 C17.2805552,3.00910519 10.1100126,1.28183246 0,0" id="Path-29"></path>
+                    <polyline id="Path-30" points="37 12 37 19 31 19"></polyline>
+                </g>
+                <g id="arrow-copy-2" transform="translate(221.045545, 53.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <path d="M37,19 C30.9054913,11.9605918 25.7427006,7.35453117 21.5116279,5.18181818 C17.2805552,3.00910519 10.1100126,1.28183246 0,0" id="Path-29"></path>
+                    <polyline id="Path-30" points="37 12 37 19 31 19"></polyline>
+                </g>
+                <g id="arrow-copy-3" transform="translate(239.045545, 0.000000)" stroke="#FFFFFF" stroke-width="2">
+                    <path d="M66,18 C59.5932302,8.59901747 54.4598968,3.01375966 50.6,1.24422655 C38.4053016,-4.34631733 28.7256213,10.7148811 18.3333333,10.7148811 C11,10.7148811 4.88888889,8.04367085 0,2.70125033" id="Path-29"></path>
+                    <polyline id="Path-30" points="66 7 66 19 56 19"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
