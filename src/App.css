@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'ChicagoFLF';
+  src: local('ChicagoFLF'), url(./fonts/ChicagoFLF.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #F9DAFD 0%, #B2D1FA 100%);
+  font-family: 'ChicagoFLF', monospace;
+
 }
 
 .App-logo {

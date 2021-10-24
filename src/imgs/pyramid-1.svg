@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2012px" height="1680px" viewBox="0 0 2012 1680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pyramid-1</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#010A33" offset="0%"></stop>
+            <stop stop-color="#0B0422" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pyramid-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pyramid" transform="translate(19.000000, 222.000000)" stroke="#28A8F5">
+            <polyline id="Path-23" stroke-width="18" fill="#060629" points="9 1260 9 1035 192 1035 192 852 348 852 348 648 510 648 570 453 651 453 651 297 786 297 786 162 885 162 942 -8.24028346e-13 1017 6"></polyline>
+            <polyline id="Path-23-Copy" stroke-width="18" points="9 1260 9 1035 192 1035 192 852 348 852 348 648 510 648 570 453 651 453 651 297 786 297 786 162 885 162 942 -8.24028346e-13 1017.6 3.6"></polyline>
+            <polygon id="Path-22" stroke-width="3" fill="url(#linearGradient-1)" points="9 1260 1011 0 1974 1260 1063.8 1447.5"></polygon>
+            <g id="Group-4">
+                <polyline id="Path-4" stroke-width="18" points="1063.78606 1449 1977 1260.94343 1010.77628 0"></polyline>
+                <line x1="1062" y1="1449" x2="1011" y2="0" id="Path-5" stroke-width="18"></line>
+                <line x1="1512" y1="1359" x2="1011" y2="0" id="Path-6" stroke-width="3"></line>
+                <line x1="1371" y1="1386" x2="1011" y2="0" id="Path-7" stroke-width="3"></line>
+                <line x1="1191" y1="1422" x2="1011" y2="0" id="Path-8" stroke-width="3"></line>
+                <line x1="1680" y1="1320" x2="1011" y2="0" id="Path-9" stroke-width="3"></line>
+                <line x1="1833" y1="1290" x2="1011" y2="0" id="Path-10" stroke-width="3"></line>
+                <line x1="906" y1="1422" x2="1011" y2="0" id="Path-11" stroke-width="3"></line>
+                <line x1="729" y1="1386" x2="1011" y2="0" id="Path-12" stroke-width="3"></line>
+                <line x1="540" y1="1359" x2="1011" y2="0" id="Path-13" stroke-width="3"></line>
+                <line x1="363" y1="1320" x2="1011" y2="0" id="Path-14" stroke-width="3"></line>
+                <line x1="186" y1="1290" x2="1011" y2="0" id="Path-15" stroke-width="3"></line>
+                <polyline id="Path-16" stroke-width="3" points="186 1035 1054.11127 1194 1833 1070.59701"></polyline>
+                <polyline id="Path-17" stroke-width="3" points="330 849 1043.6 957 1668 856.2"></polyline>
+                <polyline id="Path-18" stroke-width="3" points="498 648 1036.4241 720 1500 648"></polyline>
+                <polyline id="Path-19" stroke-width="3" points="651 453 1025.19192 525 1368 474.6"></polyline>
+                <polyline id="Path-20" stroke-width="3" points="774 297 1019.72727 339 1251 318"></polyline>
+                <polyline id="Path-21" stroke-width="3" points="879 162 1016.12264 186 1134 162"></polyline>
+                <line x1="1062" y1="1449" x2="0" y2="1257" id="Path-2" stroke-width="18"></line>
+            </g>
+        </g>
+        <g id="Group-6-Copy" transform="translate(688.000000, 375.000000)" stroke="#FFFFFF" stroke-width="9">
+            <circle id="Oval" cx="22.5" cy="22.5" r="18"></circle>
+            <polyline id="Path-25" points="21 42 27.2222222 93.8095238 63 138"></polyline>
+            <line x1="27" y1="90" x2="21" y2="141" id="Path-26"></line>
+            <polyline id="Path-27" points="63 39 33 60 69 72"></polyline>
+        </g>
+        <g id="Group-6-Copy-2" transform="translate(814.000000, 240.000000)" stroke="#FFFFFF" stroke-width="9">
+            <circle id="Oval" cx="22.5" cy="22.5" r="18"></circle>
+            <polyline id="Path-25" points="21 42 27.2222222 93.8095238 63 138"></polyline>
+            <line x1="27" y1="90" x2="21" y2="141" id="Path-26"></line>
+            <polyline id="Path-27" points="63 39 33 60 69 72"></polyline>
+        </g>
+        <g id="Group-6-Copy-3" transform="translate(936.927892, 81.000000)" stroke="#FFFFFF" stroke-width="9">
+            <circle id="Oval" cx="43.5721079" cy="22.5" r="18"></circle>
+            <polyline id="Path-25" points="42.0721079 42 48.2943302 93.8095238 84.0721079 138"></polyline>
+            <line x1="48.0721079" y1="90" x2="42.0721079" y2="141" id="Path-26"></line>
+            <polyline id="Path-27" transform="translate(38.811599, 50.154634) rotate(-79.000000) translate(-38.811599, -50.154634) " points="51.0545776 14.1465824 20.6514631 60.0431218 56.9717359 86.1626852"></polyline>
+        </g>
+        <g id="Group-6-Copy-4" transform="translate(295.000000, 825.000000)" stroke="#FFFFFF" stroke-width="9">
+            <ellipse id="Oval" cx="24" cy="22.5" rx="19.5" ry="18"></ellipse>
+            <polyline id="Path-25" points="24 39 30.2222222 90.8095238 66 135"></polyline>
+            <line x1="30" y1="90" x2="24" y2="141" id="Path-26"></line>
+            <polyline id="Path-28" points="27 63 48.8181818 40.5 75 27"></polyline>
+        </g>
+        <g id="easter" transform="translate(1630.000000, 951.000000)" stroke="#FFFFFF" stroke-width="6">
+            <circle id="Oval" cx="15" cy="15" r="12"></circle>
+            <polyline id="Path-25" points="15 27 19 61 51 81"></polyline>
+            <line x1="18.9" y1="60" x2="42" y2="93" id="Path-26"></line>
+            <polyline id="Path-28" points="48 42 21 42 36 27"></polyline>
+        </g>
+        <text id="wheeee!" font-family="ChicagoFLF" font-size="12" font-weight="normal" letter-spacing="0.677419335" fill="#FFFFFF">
+            <tspan x="1678.33406" y="963">wheeee!</tspan>
+        </text>
+        <text id="super-crazy-amazing" font-family="ChicagoFLF" font-size="24" font-weight="normal" letter-spacing="1.35483867" fill="#ED29EE">
+            <tspan x="1076" y="181">super crazy</tspan>
+            <tspan x="1076" y="210">amazing prize!!</tspan>
+        </text>
+        <text id="also-a-cool-prize!" transform="translate(1228.500000, 313.000000) rotate(-36.000000) translate(-1228.500000, -313.000000) " font-family="ChicagoFLF" font-size="24" font-weight="normal" letter-spacing="1.35483867" fill="#ED29EE">
+            <tspan x="1150" y="308">also a</tspan>
+            <tspan x="1150" y="337">cool prize!</tspan>
+        </text>
+        <text id="at-least-you-got-a-p" transform="translate(1349.000000, 445.000000) rotate(-36.000000) translate(-1349.000000, -445.000000) " font-family="ChicagoFLF" font-size="24" font-weight="normal" letter-spacing="1.35483867" fill="#ED29EE">
+            <tspan x="1255" y="440">at least you</tspan>
+            <tspan x="1255" y="469">got a prize…</tspan>
+        </text>
+    </g>
+</svg>
