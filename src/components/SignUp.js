@@ -6,11 +6,11 @@ import rectangle from '../imgs/Rectangle.png'
 const SignUp = () => {
     return (
         <div className="screen-login">
-            <label className="definitely-not-label">
+            {/* <label className="definitely-not-label">
                 DefinitelyNotA<br />
                 PyramidScheme
             </label>
-
+ */}
             <form className="form">
 
 
