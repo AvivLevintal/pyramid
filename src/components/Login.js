@@ -1,18 +1,13 @@
 
 import React from 'react'
-import { useState } from 'react';
+import { useState, useContext} from 'react';
 import rectangleCopy from '../imgs/RectangleCopy.png'
 import rectangle from '../imgs/Rectangle.png'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 import MainPage from './MainPage';
+import SignUp from './SignUp';
 
-
-const SignUp = () => {
+const Login  = () => {
 
     const [user, setUser] = useState();
     const [email, setEmail] = useState();
@@ -36,15 +31,12 @@ const SignUp = () => {
             })
 
     }
-
-
-
-
-
+    const Test = () =>{
+        return <h1>Hello</h1>
+    }
     
     return (
-            
-            <div className="screen-login">
+            <div /*className="screen-login"*/>
                 {/* <label className="definitely-not-label">
                     DefinitelyNotA<br />
                     PyramidScheme
@@ -55,7 +47,7 @@ const SignUp = () => {
 
                     <div src={rectangleCopy} className="rectangle-signup-box">
                         <h2 className="sign-up-for-free">
-                            Sign Up for Free
+                            Login
                         </h2>
                         <label className="">
                             See, we told you 
@@ -63,10 +55,12 @@ const SignUp = () => {
                         </label>
 
 
-                        <input type="text" placeholder="Username..." src={rectangleCopy} className="username" value={user} onChange={(e) => setUser(e.target.value)}/>
+                        
                         <input type="text"placeholder="Email..." src={rectangleCopy} className="username" value={email} onChange={(e) => setEmail(e.target.value)}/>
                         <input type="password" placeholder="Password..." src={rectangleCopy} className="username" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                        <input type="text" placeholder="Your name..." src={rectangleCopy} className="username" value={name} onChange={(e) => setName(e.target.value)}/>
+                        
+                        
+         
                         
                         <input type="button" onClick="location.href = 'http://www.google.com'" value="enter ->" name="Enter" className="enter-submit"/>
                     </div>
@@ -74,10 +68,10 @@ const SignUp = () => {
                     
                 </form>
             </div>
-      
+
     )
     
 }
 
-export default SignUp
+export default Login
 

@@ -223,7 +223,15 @@
     right: 2vh;
 
   }
+  .signup-link{
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 1vh;
+    right: 1vh;
 
+
+  }
   @media only screen and (max-width: 1060px) {
     .pyramid {
       height: 40vh;
