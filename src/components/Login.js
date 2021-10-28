@@ -16,6 +16,7 @@ const Login  = () => {
     const [name, setName] = useState();
 
     const {tokenAuth, emailAuth} = useContext(SignUpContext);
+    const [loginResponse, setLoginResponse] = useState();
     const [userToken, setUserToken] = tokenAuth;
     const [userEmail, setUserEmail] = emailAuth;
 
@@ -30,8 +31,8 @@ const Login  = () => {
             
             var raw = JSON.stringify({
               "user": {
-                "email": "test10@test.com",
-                "password": "12345678"
+                "email": `${email}`,
+                "password": `${password}`
               }
             });
             
@@ -41,18 +42,35 @@ const Login  = () => {
               body: raw,
               redirect: 'follow'
             };
+
+            const test = await fetch("https://not-a-pyramid.herokuapp.com/api/v1/login", requestOptions)
+              .then(response => response.text())
+              .then(result =>  setLoginResponse(JSON.parse(result)))
+              .catch(error => console.log(error));
             
-           const response = await fetch("https://not-a-pyramid.herokuapp.com/api/v1/login", requestOptions);
-            
-            return response.text();
     }
 
     const handleLogin = () =>{
-        alert("test")
         const resp = loginRequest();
-        setUserEmail(resp);
-        console.log(resp);
-        
+        if(typeof loginResponse =="undefined"){
+            alert("Server Error, try again")
+            
+           
+        }
+        else if(loginResponse.error == "Incorrect email or password")
+        {
+        alert("Incorrect email or password")
+        console.log(loginResponse);
+        }
+        else
+        {
+            
+            setUserEmail(loginResponse.user.email);
+            setUserToken(loginResponse.auth_token);
+            console.log(userToken + " " + userEmail);
+            history.push("/Home");
+            
+        }
 
         //setUserEmail(response.user.email);
        // setUserToken(response.auth_token);

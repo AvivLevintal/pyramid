@@ -15,10 +15,10 @@ import MainPage from './MainPage';
 
 const SignUp = () => {
 
-    const [user, setUser] = useState();
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
     const [name, setName] = useState();
+    const [errorCaught, setErrorCaught] = useState();
     let history = useHistory();
 
 
@@ -27,7 +27,7 @@ const SignUp = () => {
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
 
-        var raw = "{\n    \"user\": {\n        \"email\": \"tsta2@tesst.com\",\n        \"password\": \"12a3a45678\",\n        \"name\": \"Jahnaa Doae\"\n    }\n}";
+        var raw = `{\n    \"user\": {\n        \"email\": \"${email}\",\n        \"password\": \"${password}\",\n        \"name\": \"${name}\"\n    }\n}`;
 
         var requestOptions = {
         method: 'POST',
@@ -39,20 +39,25 @@ const SignUp = () => {
         fetch("https://not-a-pyramid.herokuapp.com/api/v1/users", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
-        .catch(error => console.log('error', error));
+        .catch(error => setErrorCaught(error));
 
     } 
 
     const handleSignUp = () =>{
+            alert(email);
+            if(typeof email === "undefined" || email <= 6){
+                alert("Email must be 6 characters long!")
+            }
+            else if(typeof password === "undefined" || password <= 6){
+                alert("Password must be longer than 6 characters!")
+            }
+            else{
 
-        const resp = signUpRequest();
-        if(resp === "\"error\": \"Email has already been taken\"")
-        {
-            alert("Mail or name are already in use");
-        }
-        else{
-            history.push('/')
-        }
+                const resp = signUpRequest();
+                history.push('/')
+            
+            }
+      
 
 
     }
@@ -79,7 +84,6 @@ const SignUp = () => {
                         </label>
 
 
-                        <input type="text" placeholder="Username..." src={rectangleCopy} className="username" value={user} onChange={(e) => setUser(e.target.value)}/>
                         <input type="text"placeholder="Email..." src={rectangleCopy} className="username" value={email} onChange={(e) => setEmail(e.target.value)}/>
                         <input type="password" placeholder="Password..." src={rectangleCopy} className="username" value={password} onChange={(e) => setPassword(e.target.value)}/>
                         <input type="text" placeholder="Your name..." src={rectangleCopy} className="username" value={name} onChange={(e) => setName(e.target.value)}/>
