@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './index.css';
 import LoginPage from './components/LoginPage';
 import MainPage from './components/MainPage';
 import SignUp from './components/SignUp';
@@ -12,7 +13,8 @@ function App() {
   return (
 
     <div className="App">
-            <LoginPage />
+      
+            < LoginPage/>
 
     </div>
 
