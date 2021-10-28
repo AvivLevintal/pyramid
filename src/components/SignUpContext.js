@@ -3,12 +3,13 @@ import React, {createContext, useState, useEffect} from 'react'
 export const SignUpContext = createContext();
 
 export const SignUpProvider = (props) => {
-    const [signupVisable, setSignupVisable] = useState();
-    setSignupVisable(false);
+    const [userToken, setUserToken] = useState();
+    const [userEmail, setUserEmail] = useState();
+   
 
     return (
-        <SignUpProvider.Provider value={[signupVisable, setSignupVisable]}>
+        <SignUpContext.Provider value={{ tokenAuth: [userToken, setUserToken], emailAuth: [userEmail, setUserEmail]}}>
             {props.children}
-        </SignUpProvider.Provider>
+        </SignUpContext.Provider>
     )
 }

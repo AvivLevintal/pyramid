@@ -10,12 +10,14 @@ import { SignUpProvider } from './components/SignUpContext';
 function App() {
 
   return (
-
+    <SignUpProvider>
+    
     <div className="App">
             <LoginPage />
 
     </div>
-
+    </ SignUpProvider>
+    
   );
 
 

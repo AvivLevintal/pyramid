@@ -3,9 +3,10 @@ import React from 'react'
 import { useState, useContext} from 'react';
 import rectangleCopy from '../imgs/RectangleCopy.png'
 import rectangle from '../imgs/Rectangle.png'
-
+import { useHistory } from "react-router-dom";
 import MainPage from './MainPage';
 import SignUp from './SignUp';
+import { SignUpContext } from './SignUpContext';
 
 const Login  = () => {
 
@@ -14,26 +15,51 @@ const Login  = () => {
     const [password, setPassword] = useState();
     const [name, setName] = useState();
 
+    const {tokenAuth, emailAuth} = useContext(SignUpContext);
+    const [userToken, setUserToken] = tokenAuth;
+    const [userEmail, setUserEmail] = emailAuth;
+
+    let history = useHistory();
+
 
 
     
-    async function signUpRequest(){
-        const { data } = await fetch('http://not-a-pyramid.herokuapp.com:3000/api/v1/users', {
-            method: 'POST',
+        const loginRequest = async() =>{
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
             
-            body: 
-                JSON.stringify({
-                user: user,
-                email: email,
-                password: password,
-                name: name
-                })
-            })
+            var raw = JSON.stringify({
+              "user": {
+                "email": "test10@test.com",
+                "password": "12345678"
+              }
+            });
+            
+            var requestOptions = {
+              method: 'POST',
+              headers: myHeaders,
+              body: raw,
+              redirect: 'follow'
+            };
+            
+           const response = await fetch("https://not-a-pyramid.herokuapp.com/api/v1/login", requestOptions);
+            
+            return response.text();
+    }
 
+    const handleLogin = () =>{
+        alert("test")
+        const resp = loginRequest();
+        setUserEmail(resp);
+        console.log(resp);
+        
+
+        //setUserEmail(response.user.email);
+       // setUserToken(response.auth_token);
+        
+    
     }
-    const Test = () =>{
-        return <h1>Hello</h1>
-    }
+
     
     return (
             <div /*className="screen-login"*/>
@@ -42,7 +68,7 @@ const Login  = () => {
                     PyramidScheme
                 </label>
     */}
-                <form className="form">
+                <form className="form" >
 
 
                     <div src={rectangleCopy} className="rectangle-signup-box">
@@ -62,7 +88,7 @@ const Login  = () => {
                         
          
                         
-                        <input type="button" onClick="location.href = 'http://www.google.com'" value="enter ->" name="Enter" className="enter-submit"/>
+                        <input type="button" onClick={handleLogin} value="enter ->" name="Enter" className="enter-submit"/>
                     </div>
                     {/* <img src={rectangle} className="rectangle"/> */}
                     
