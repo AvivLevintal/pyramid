@@ -16,10 +16,10 @@ const Login  = () => {
     const [name, setName] = useState();
 
     const {tokenAuth, emailAuth} = useContext(SignUpContext);
-    const [loginResponse, setLoginResponse] = useState();
     const [userToken, setUserToken] = tokenAuth;
     const [userEmail, setUserEmail] = emailAuth;
-
+    const [loginResponse, setLoginResponse] = useState();
+    
     let history = useHistory();
 
 
